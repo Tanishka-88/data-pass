@@ -1,0 +1,9 @@
+<app-navbar [count]="100"></app-navbar>
+<div style="display: flex;flex-wrap:wrap;">
+  @for (item of data; track $index)
+  {
+
+    <app-card [data]="item"></app-card>
+   }
+
+</div>
